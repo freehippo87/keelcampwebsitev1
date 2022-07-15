@@ -1891,11 +1891,11 @@ p {
   font-size: 20px;
   color: #fff;
   position: fixed;
-  right: 20px;
-  bottom: 100px;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  right: 24px;
+  bottom: 110px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 50%;
   background-color: #f14836;
   text-align: center;
