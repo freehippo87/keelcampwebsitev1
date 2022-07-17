@@ -16,6 +16,31 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/custom.css">
 
+      <style>
+      * {box-sizing: border-box;}
+      img {vertical-align: middle;}
+
+      /* Slideshow container */
+      .slideshow-container {
+         padding: 0;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 25px;
+      }
+
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      </style>      
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-GWVGS3J5W9"></script>
       <script>
@@ -98,11 +123,11 @@
                      <div class="header-hero-content">
                         <h1 class="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"><b>助您翻身</b>進入<span>加密貨幣元宇宙</span>的<b>第一站</b></h1>
                         <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">親切又經驗豐富的講師面對面帶您進入加密貨幣元宇宙的嶄新領域！</p>
-                        <!---
+                        <!--
                            <div class="header-singup wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                            <input type="text" placeholder="username@yourdomain.com">
                            <button class="main-btn" formaction="href=#services">報名</button>
-                           --->
+                        --->
                         <div class="service-btn text-center pt-25 pb-15">
                            <a class="main-btn main-btn-2" href="#services">立即報名</a>
                         </div>                           
@@ -111,11 +136,24 @@
                </div>
             </div>
          </div>
-         <div class="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.1s">
-            <div class="image">
-               <img src="https://preview.uideck.com/items/consult/assets/images/hero-image.png" alt="Hero Image">
-            </div>
+
+         <div class="slideshow-container header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.1s" width="972" height="486">
+
+         <div class="mySlides fade">
+           <a href="#services"><img src="assets/images/accupass banner 1040x540.png" style="width:100%"></a>
          </div>
+
+         <div class="mySlides fade">
+           <a href="#services"><img src="assets/images/accupass banner 1040x540.png" style="width:100%"></a>
+         </div>
+
+         <div class="mySlides fade">
+           <a href="#services"><img src="assets/images/accupass banner 1040x540.png" style="width:100%"></a>
+         </div>
+
+         </div>
+         
+
          </div> 
       </header>
       <section id="about" class="about-area pt-115">
@@ -123,7 +161,7 @@
             <div class="row justify-content-center">
                <div class="col-lg-9">
                   <div class="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                     <h6 class="welcome">翻升訓練營</h6>
+                     <h6 class="welcome">關於翻升訓練營</h6>
                      <h3 class="title"><span>翻升訓練營</span>協助伙伴翻轉宿命躍升區塊鏈新貴</h3>
                   </div>
                </div>
@@ -417,8 +455,8 @@
                               <div class="col-lg-6">
                                  <div class="our-services-content mt-45">
                                     <h3 class="services-title">區塊鏈行銷<span>專班</span></h3>
-                                    <p class="text">在人人都能發幣的大灑幣時代，藝人網紅明星紛紛發行了自己的NFT，衍生出各式各樣的賦能應用，WEB3 基於
-WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型塑出迥異於WEB2的新市場樣貌，行銷手段跟方法也日新月異。</p>如果想踏入新領域從事行銷類工作，或者公司個人想轉型 WEB3 卻沒時間深入瞭解 ，區塊鏈行銷專班是您最好的選擇。</p>區塊鏈行銷專班以行銷為主軸，從基礎的線上線下行銷、到Web2/Web3的市場特定分析，還有精心設計的作業習題帶領大家做中學學中做掌握新世代的行銷學問。</p>   
+                                    <p class="text">在人人都能發幣的大灑幣時代，藝人網紅明星紛紛發行了自己的NFT，衍生出各式各樣的賦能應用，Web3 基於
+Web2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型塑出迥異於Web2的新市場樣貌，行銷手段跟方法也日新月異。</p>如果想踏入新領域從事行銷類工作，或者公司個人想轉型 Web3 卻沒時間深入瞭解 ，區塊鏈行銷專班是您最好的選擇。</p>區塊鏈行銷專班以行銷為主軸，從基礎的線上線下行銷、到Web2/Web3的市場特定分析，還有精心設計的作業習題帶領大家做中學學中做掌握新世代的行銷學問。</p>   
                                     <!---
                                     <div class="our-services-progress d-flex align-items-center mt-55">
                                        <div class="circle" id="circles-3"></div>
@@ -662,89 +700,6 @@ WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型�
          </div>
       </section>
 
-      <!---
-      <section data-scroll-index="0" id="pricing" class="pricing-area pt-115">
-         <div class="container">
-            <div class="row justify-content-center">
-               <div class="col-lg-5 col-md-8 col-sm-9">
-                  <div class="section-title text-center pb-20 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                     <h6 class="sub-title">Pricing Plans</h6>
-                     <h4 class="title">Providing Best Pricing <span>For Your Business.</span></h4>
-                  </div>
-               </div>
-            </div>
-            <div class="row no-gutters justify-content-center">
-               <div class="col-lg-4 col-md-7 col-sm-9">
-                  <div class="single-pricing text-center pricing-color-1 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                     <div class="pricing-price">
-                        <span class="price"><b>50</b>/m.<span class="symbol">$</span></span>
-                     </div>
-                     <div class="pricing-title mt-20">
-                        <span class="btn">20% Off</span>
-                        <h4 class="title">Basic</h4>
-                     </div>
-                     <div class="pricing-list pt-20">
-                        <ul>
-                           <li>Full Access</li>
-                           <li>Unlimited Bandwidth</li>
-                           <li>50 gb Space</li>
-                           <li>1 Month Support</li>
-                        </ul>
-                     </div>
-                     <div class="pricing-btn pt-70">
-                        <a class="main-btn main-btn-2" href="#">Sign Up Now !</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-7 col-sm-9">
-                  <div class="single-pricing text-center pricing-active pricing-color-2 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                     <div class="pricing-price">
-                        <span class="price"><b>69</b>/m.<span class="symbol">$</span></span>
-                     </div>
-                     <div class="pricing-title mt-20">
-                        <span class="btn">Special</span>
-                        <h4 class="title">Standard</h4>
-                     </div>
-                     <div class="pricing-list pt-20">
-                        <ul>
-                           <li>Full Access</li>
-                           <li>Unlimited Bandwidth</li>
-                           <li>50 gb Space</li>
-                           <li>1 Month Support</li>
-                        </ul>
-                     </div>
-                     <div class="pricing-btn pt-70">
-                        <a class="main-btn" href="#">Sign Up Now !</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-7 col-sm-9">
-                  <div class="single-pricing text-center pricing-color-3 mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
-                     <div class="pricing-price">
-                        <span class="price"><b>99</b>/m.<span class="symbol">$</span></span>
-                     </div>
-                     <div class="pricing-title mt-20">
-                        <span class="btn">New</span>
-                        <h4 class="title">Premium</h4>
-                     </div>
-                     <div class="pricing-list pt-20">
-                        <ul>
-                           <li>Full Access</li>
-                           <li>Unlimited Bandwidth</li>
-                           <li>50 gb Space</li>
-                           <li>1 Month Support</li>
-                        </ul>
-                     </div>
-                     <div class="pricing-btn pt-70">
-                        <a class="main-btn main-btn-2" href="#">Sign Up Now !</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      --->
-
       <section id="testimonial" class="testimonial-area pt-70 pb-120">
          <div class="container">
             <div class="row justify-content-between">
@@ -785,18 +740,6 @@ WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型�
                                     -->
                                  </div>
                               </div>
-                              <!--
-                              <div class="author-review">
-                                 <ul class="star">
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                 </ul>
-                                 <span class="review">( 7 Reviews )</span>
-                              </div>
-                              -->
                            </div>
                         </div>
                         <div class="single-testimonial">
@@ -812,18 +755,6 @@ WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型�
                                     <h5 class="name">Alma</h5>
                                  </div>
                               </div>
-                              <!--
-                              <div class="author-review">
-                                 <ul class="star">
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                    <li><i class="lni-star"></i></li>
-                                 </ul>
-                                 <span class="review">( 7 Reviews )</span>
-                              </div>
-                              -->
                            </div>
                         </div>
                         <div class="single-testimonial">
@@ -1036,7 +967,7 @@ WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型�
 
 
 
-<!-- Messenger 洽談外掛程式 Code -->
+   <!-- Messenger 洽談外掛程式 Code -->
     <div id="fb-root"></div>
 
     <!-- Your 洽談外掛程式 code -->
@@ -1154,5 +1085,21 @@ WEB2的社群互動之又加入區塊鏈的可互通性跟擁有權概念，型�
       <script src="assets/js/scrollIt.min.js"></script>
       <script src="assets/js/jquery.magnific-popup.min.js"></script>
       <script src="assets/js/main.js"></script>
+      <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+      }
+      </script>      
    </body>
 </html>
